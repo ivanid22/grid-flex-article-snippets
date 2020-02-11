@@ -1,0 +1,53 @@
+.container {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+  color: #929292;
+}
+
+.footer-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.footer-bar > div {
+  display: flex;
+  white-space: nowrap;
+}
+
+.logo {
+  flex: 0 0 auto;
+  height: 90px;
+  width: 90px;
+  background-image: url('https://pngimage.net/wp-content/uploads/2018/06/sample-company-logo-png-8.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.legal {
+  align-items: flex-end;
+}
+
+.social-icons {
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left: 10px;
+}
+
+.social-icons > i {
+  padding: 5px;
+}
+
+@media (max-width: 767px) {
+  .footer-bar > .legal {
+    display: none;
+  }
+
+  .logo {
+    background-size: 250%;
+    background-position: 50% 25%;
+    height: 60px;
+  }
+}

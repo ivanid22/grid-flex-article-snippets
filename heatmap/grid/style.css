@@ -5,14 +5,14 @@
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 550px;
   width: 100%;
   margin: 0 auto;
 }
 
 .heatmap-container {
   display: grid;
-  grid-template-columns: repeat(10, minmax(50px, 1fr));
+  grid-template-columns: repeat(auto-fill, 50px);
   grid-auto-flow: dense;
   grid-auto-rows: 50px;
   gap: 5px;
@@ -62,7 +62,7 @@
   grid-row: span 3;
   background-color: slateblue;
 }
-
+  
 .heatmap-item-3-2 {
   grid-row: span 3;
   grid-column: span 2;
