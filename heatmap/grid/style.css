@@ -26,47 +26,25 @@
 }
 
 .heatmap-item-1 {
-  background-color: darkolivegreen;
+  background-color: aqua;
   grid-column: span 1;
   grid-row: span 1;
 }
 
 .heatmap-item-2 {
-  background-color: aquamarine;
+  background-color: salmon;
   grid-column: span 2;
   grid-row: span 2;
 }
 
 .heatmap-item-3 {
-  background-color: salmon;
+  background-color: slategrey;
   grid-column: span 3;
   grid-row: span 3;
 }
 
-.heatmap-item-1-2 {
-  grid-row: span 2;
-  background-color: sandybrown;
-}
-
-.heatmap-item-2-1 {
-  grid-column: span 2;
-  background-color: sandybrown;
-}
-
-.heatmap-item-1-3 {
-  grid-column: span 3;
-  background-color: slateblue;
-}
-
-.heatmap-item-3-1 {
-  grid-row: span 3;
-  background-color: slateblue;
-}
-  
-.heatmap-item-3-2 {
-  grid-row: span 3;
-  grid-column: span 2;
-  background-color: blueviolet;
+.heatmap-item-4 {
+  background-color: springgreen;
 }
 
 .heatmap-item-2-3 {
